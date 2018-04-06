@@ -1,7 +1,7 @@
 ---
 title: FOCUS
 address: 'G0.68, Oasis on Broadbeach QLD'
-phone: (07) 5592 3553
+phone: 0421 581 690
 featuredImage: /images/uploads/home-banner.jpg
 ---
 
