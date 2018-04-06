@@ -1,6 +1,8 @@
 ---
-title: Hello World!
-subtitle: <Home />
+title: FOCUS
+address: 'G0.68, Oasis on Broadbeach QLD'
+phone: (07) 5592 3553
+featuredImage: /images/uploads/home-banner.jpg
 ---
 
 # 🌶 Netlify CMS + React Starter
