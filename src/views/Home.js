@@ -2,14 +2,15 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Content from '../components/Content'
-import PageHeader from '../components/PageHeader'
+import Banner from '../components/Banner'
 import './Home.css'
 
 export default ({ page }) => {
-  const { title, subtitle } = page
+  console.log(page)
+  const { title, subtitle, featuredImage } = page
   return (
     <main className='Home'>
-      <PageHeader title={title} subtitle={subtitle} />
+      <Banner image={page.featuredImage} heading={page.title} address={page.address} phone={page.phone} />
       <div className='section thin'>
         <div className='container'>
           <Content source={page.content} />
