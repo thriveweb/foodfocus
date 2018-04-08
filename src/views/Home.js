@@ -8,17 +8,19 @@ import SectionIntro from '../components/SectionIntro'
 import './Home.css'
 
 export default ({ page, globalSettings }) => {
-  const { featuredImage, title, address, phone } = page
-  const { heading, content, ButtonText, ButtonUrl} = page
+  const { featuredImage, title, address, phone, intro, galleryImages } = page
+
+  console.log(page)
 
   return (
     <main className='Home'>
       <Banner image={featuredImage} heading={title} address={address} phone={phone} />
-      <SectionIntro heading={heading} content={content} ButtonText={ButtonText} ButtonUrl={ButtonUrl} />
-      <ImageGallery galleryItems={page.galleryImages} />
+      <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
+      <ImageGallery galleryItems={galleryImages} />
       <Helmet>
         <title>{title}</title>
       </Helmet>
     </main>
   )
 }
+
