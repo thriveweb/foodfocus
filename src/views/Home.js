@@ -5,10 +5,11 @@ import Helmet from 'react-helmet'
 import Banner from '../components/Banner'
 import ImageGallery from '../components/ImageGallery'
 import SectionIntro from '../components/SectionIntro'
+import SectionColumns from '../components/SectionColumns'
 import './Home.css'
 
 export default ({ page, globalSettings }) => {
-  const { featuredImage, title, address, phone, intro, galleryImages } = page
+  const { featuredImage, title, address, phone, intro, galleryImages, columns } = page
 
   console.log(page)
 
@@ -17,6 +18,7 @@ export default ({ page, globalSettings }) => {
       <Banner image={featuredImage} heading={title} address={address} phone={phone} />
       <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
       <ImageGallery galleryItems={galleryImages} />
+      <SectionColumns columns={columns} />
       <Helmet>
         <title>{title}</title>
       </Helmet>

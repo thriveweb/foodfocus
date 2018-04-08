@@ -7,7 +7,7 @@ export default ({title, content, buttonUrl, buttonText}) => (
 				<h2>{title}</h2>
 				<p>{content}</p>
 			</div>
-			<a className='button' href={`${buttonUrl}`}>{buttonText}</a>
+			<a className='button' href={`${buttonUrl}`} target='_blank'>{buttonText}</a>
 		</div>
 	</section>
 )
