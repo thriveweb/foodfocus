@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-// import Content from '../components/Content'
 import Banner from '../components/Banner'
 import ImageGallery from '../components/ImageGallery'
 import SectionIntro from '../components/SectionIntro'
@@ -10,17 +9,18 @@ import SectionContact from '../components/SectionContact'
 import './Home.css'
 
 export default ({ page, globalSettings }) => {
-  const { featuredImage, title, address, phone, intro, galleryImages, columns, contact } = page
+  const { featuredImage, title, intro, galleryImages, columns, contact } = page
+  // const { phone, address, email, socialMedia } = globalSettings
 
-  console.log(contact)
+  console.log(globalSettings)
 
   return (
     <main className='Home'>
-      <Banner image={featuredImage} heading={title} address={address} phone={phone} />
+      <Banner image={featuredImage} heading={title} />
       <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
       <ImageGallery galleryItems={galleryImages} />
       <SectionColumns columns={columns} />
-      <SectionContact contact={contact} />
+      <SectionContact title={contact.title} introContent={contact.introContent} infoItems={contact.infoItems} />
       <Helmet>
         <title>{title}</title>
       </Helmet>
