@@ -12,6 +12,8 @@ import './Home.css'
 export default ({ page, globalSettings }) => {
   const { featuredImage, title, address, phone, intro, galleryImages, columns, contact } = page
 
+  console.log(contact)
+
   return (
     <main className='Home'>
       <Banner image={featuredImage} heading={title} address={address} phone={phone} />
