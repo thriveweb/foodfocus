@@ -50,7 +50,8 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Content, name: content, widget: string}
-              - {label: Link, name: link, widget: image}
+              - {label: Button Url, name: button url, widget: image}
+              - {label: Button Text, name: button text, widget: string}
           - label: "Gallery"
             name: "galleryImages"
             widget: "list"
