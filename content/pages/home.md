@@ -3,6 +3,13 @@ title: FOCUS
 address: 'G0.68, Oasis on Broadbeach QLD'
 phone: (07) 5592 3553
 featuredImage: /images/uploads/home-banner.jpg
+intro:
+  button text: Download Menu
+  button url: /images/uploads/images (1).pdf
+  content: >-
+    Some intro introducing different types of cuisines available at your
+    restaurant to order
+  title: Explore our menu
 galleryImages:
   - image: /images/uploads/heather-schwartz-493942-unsplash.jpg
     title: Soup
