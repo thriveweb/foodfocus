@@ -6,12 +6,11 @@ import Banner from '../components/Banner'
 import ImageGallery from '../components/ImageGallery'
 import SectionIntro from '../components/SectionIntro'
 import SectionColumns from '../components/SectionColumns'
+import SectionContact from '../components/SectionContact'
 import './Home.css'
 
 export default ({ page, globalSettings }) => {
-  const { featuredImage, title, address, phone, intro, galleryImages, columns } = page
-
-  console.log(page)
+  const { featuredImage, title, address, phone, intro, galleryImages, columns, contact } = page
 
   return (
     <main className='Home'>
@@ -19,6 +18,7 @@ export default ({ page, globalSettings }) => {
       <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
       <ImageGallery galleryItems={galleryImages} />
       <SectionColumns columns={columns} />
+      <SectionContact contact={contact} />
       <Helmet>
         <title>{title}</title>
       </Helmet>
