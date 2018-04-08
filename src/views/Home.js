@@ -12,8 +12,6 @@ export default ({ page, globalSettings }) => {
   const { featuredImage, title, intro, galleryImages, columns, contact } = page
   const { phone, address, email, socialMedias } = globalSettings
 
-  console.log(globalSettings)
-
   return (
     <main className='Home'>
       <Banner image={featuredImage} heading={title} address={address} phone={phone} />

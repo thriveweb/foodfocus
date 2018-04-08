@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Footer.css'
 
-export default ({ globalSettings, socialSettings, navLinks }) => (
+export default ({ globalSettings, socialSettings, navLinks, content }) => (
   <footer className='Footer'>
   	<div className='container'>
   		<div className='footer--col-left'>

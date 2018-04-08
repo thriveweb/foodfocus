@@ -32,6 +32,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Email, name: email, widget: string, required: false}
           - {label: Address, name: address, widget: string, required: false}    
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: Content, name: content, widget: markdown}
 
   - name: "pages"
     label: "Page"
@@ -82,11 +87,6 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: markdown}
-          - label: "Footer"
-            name: "footer"
-            widget: "object"
-            fields:
-              - {label: Content, name: content, widget: markdown}
   
 
 
