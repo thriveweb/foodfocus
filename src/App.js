@@ -56,7 +56,7 @@ class App extends Component {
       siteTitle,
       siteUrl,
       siteDescription,
-      socialMedia,
+      socialMedias,
       phone,
       address,
       email,
@@ -64,8 +64,7 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-
-    // console.log(globalSettings)
+    console.log(globalSettings)
 
     return (
       <Router>
@@ -82,12 +81,12 @@ class App extends Component {
             url={siteUrl}
             description={siteDescription}
             absoluteImageUrl={
-              socialMedia &&
-              socialMedia.icon &&
-              siteUrl + socialMedia.icon
+              socialMedias &&
+              socialMedias.icon &&
+              siteUrl + socialMedias.icon
             }
             accountUrl={
-              socialMedia && socialMedia.accountUrl
+              socialMedias && socialMedias.accountUrl
             }
             headerScripts={headerScripts}
           />
@@ -103,7 +102,7 @@ class App extends Component {
 
             <Route render={() => <NoMatch siteUrl={siteUrl} />} />
           </Switch>
-          <Footer  />
+          <Footer content={footer.content} phone={globalSettings.phone} email={email} socialMedias={socialMedias} />
         </div>
       </Router>
     )

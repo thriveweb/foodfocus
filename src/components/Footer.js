@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Footer.css'
 
-export default ({ globalSettings, socialSettings, navLinks, content }) => (
+export default ({content, phone, email, socialMedias }) => (
   <footer className='Footer'>
   	<div className='container'>
   		<div className='footer--col-left'>
@@ -10,12 +10,16 @@ export default ({ globalSettings, socialSettings, navLinks, content }) => (
   			<p>{content}</p>
   		</div>
   		<div className='footer--col-middle'>
+  		    <p>Phone: <a href={`tel:${phone}`}>{phone}</a></p>
+  			<p>Email: <a href={`mailto:${email}`}>{email}</a></p>
+  			<div className='footer--social-media'>
 
+  			</div>
   		</div>
   	</div>
     <div className='Footer--Lower'>
       <div className='container'>
-        <span>© 2018 Copyright Food Focus</span>
+        <p>© 2018 Copyright Food Focus</p>
         <a href="https://thriveweb.com.au/" title="Web Design Gold Coast" >Web Design Gold Coast</a> - THRIVE
         <nav>
         	<ul>
@@ -28,10 +32,8 @@ export default ({ globalSettings, socialSettings, navLinks, content }) => (
   </footer>
 )
 
-  			// <p>Phone: <a href{`tel:${phone}`}>{phone}</a></p>
-  			// <p>Email: <a href{`mailto:${email}`}>{email}</a></p>
-  			// <div className='footer--social-media'>
-  			// 	{socialMedias.map(socialMedia => {
-  			// 		return <a href{socialMedia.accountUrl}>{socialMedia.icon}</a>
-  			// 	})}
-  			// </div>
+
+  				// {socialMedias.map(socialMedia => {
+  				// 	return <a href='/'>{socialMedia.icon}</a>
+  				// })}
+

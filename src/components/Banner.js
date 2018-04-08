@@ -5,7 +5,7 @@ import './Banner.css'
 
 export default ({image, heading, address, phone}) => (
 
-	<section className='section--banner relative' style={{backgroundImage: `url(${image})`}}>
+	<section className='section--banner relative'>
 		<BackgroundImage src={image} imageSize='1800' />
 		<div className='container relative'>
 			<h1>{heading}</h1>
