@@ -11,3 +11,8 @@ phone: (07) 5592 3553
 email: info@focusfood.com.au
 address: 'G0.68, Oasis on Broadbeach QLD'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
+footer:
+  content: >-
+    About text goes here et vero eos et accusamus et iusto odio dignissimos
+    ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+    dolores et quas molestias.
