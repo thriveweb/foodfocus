@@ -10,13 +10,13 @@ import './Home.css'
 
 export default ({ page, globalSettings }) => {
   const { featuredImage, title, intro, galleryImages, columns, contact } = page
-  // const { phone, address, email, socialMedia } = globalSettings
+  const { phone, address, email, socialMedia } = globalSettings
 
   console.log(globalSettings)
 
   return (
     <main className='Home'>
-      <Banner image={featuredImage} heading={title} />
+      <Banner image={featuredImage} heading={title} address={address} phone={phone} />
       <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
       <ImageGallery galleryItems={galleryImages} />
       <SectionColumns columns={columns} />
