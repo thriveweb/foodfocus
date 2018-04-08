@@ -10,7 +10,7 @@ import './Home.css'
 
 export default ({ page, globalSettings }) => {
   const { featuredImage, title, intro, galleryImages, columns, contact } = page
-  const { phone, address, email, socialMedia } = globalSettings
+  const { phone, address, email, socialMedias } = globalSettings
 
   console.log(globalSettings)
 

@@ -75,12 +75,19 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Intro Content, name: introContent, widget: markdown}
+              - {label: Location, name: location, widget: string}
               - label: "Info Items"
                 name: "infoItems"
                 widget: "list"
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Content, name: content, widget: markdown}    
+                  - {label: Content, name: content, widget: markdown}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: Content, name: content, widget: markdown}
+  
 
 
 
