@@ -3,8 +3,11 @@ siteUrl: 'https://foodfocus.netlify.com'
 siteDescription: 'Food Focus '
 socialMedia:
   - accountUrl: 'http://www.twitter.com'
-    icon: /images/uploads/IMG_5105.jpg
-phone: 1234 567 789
-email: email@test.com
-address: 123 road dr
+    icon: ''
+  - accountUrl: 'http://www.facebook.com'
+  - accountUrl: 'http://www.linkedin.com'
+  - accountUrl: 'http://www.instagram.com'
+phone: (07) 5592 3553
+email: info@focusfood.com.au
+address: 'G0.68, Oasis on Broadbeach QLD'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
