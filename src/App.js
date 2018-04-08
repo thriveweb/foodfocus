@@ -93,7 +93,7 @@ class App extends Component {
               path='/'
               exact
               render={props => (
-                <Home page={this.getDocument('pages', 'home')} {...props} />
+                <Home page={this.getDocument('pages', 'home')} globalSettings={globalSettings} {...props} />
               )}
             />
 

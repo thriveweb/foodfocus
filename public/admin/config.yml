@@ -43,11 +43,18 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Address, name: address, widget: string}
           - {label: Phone, name: phone, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Body, name: body, widget: markdown}
-          # - label: "Gallery"
-          #   name: "galleryImages"
-          #   widget: "list"
-          #   field:
-          #     - {label: Image, name: image, widget: image}
-          #     - {label: Title, name: title, widget: string}
+          - {label: Featured Image, name: featuredImage, widget: image}   
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
+
+
+
+
+
+
+
+
