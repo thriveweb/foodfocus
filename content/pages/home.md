@@ -35,6 +35,7 @@ columns:
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
       commodo consequat.
     image: /images/uploads/pexels-photo-887827.jpeg
+    leftAlign: true
     subTitle: >-
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
       fugit.
@@ -45,6 +46,7 @@ columns:
       officia deserunt mollit. Lorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt.
     image: /images/uploads/pexels-photo-916416.jpeg
+    leftAlign: false
   - category: Venue
     content: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -55,6 +57,7 @@ columns:
       aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
       voluptate velit esse cillum dolore.
     image: /images/uploads/chuttersnap-324675-unsplash.jpg
+    leftAlign: true
     subTitle: >-
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
       fugit.
