@@ -62,6 +62,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "columns"
             widget: "list"
             fields:
+              - {label: "Left Align", name: "leftAlign", widget: "boolean", default: true}
               - {label: Image, name: image, widget: image}
               - {label: Category, name: category, widget: string}
               - {label: Title, name: title, widget: string}
