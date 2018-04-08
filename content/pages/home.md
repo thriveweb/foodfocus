@@ -1,7 +1,5 @@
 ---
 title: FOCUS
-address: 'G0.68, Oasis on Broadbeach QLD'
-phone: (07) 5592 3553
 featuredImage: /images/uploads/home-banner.jpg
 intro:
   buttonText: Download Menu
@@ -64,8 +62,6 @@ columns:
     title: The atmosphere
 contact:
   infoItems:
-    - content: 'G0.68, Oasis on Broadbeach QLD'
-      title: Location
     - content: |-
         Mon - Fri: 10am - 10pm
 
@@ -76,6 +72,12 @@ contact:
   introContent: >-
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
     eu fugiat.
+  location: Location
   title: Find Us Here
+footer:
+  content: >-
+    About text goes here et vero eos et accusamus et iusto odio dignissimos
+    ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
+    dolores et quas molestias.
 ---
 
