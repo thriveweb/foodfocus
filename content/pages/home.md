@@ -62,5 +62,20 @@ columns:
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
       fugit.
     title: The atmosphere
+contact:
+  infoItems:
+    - content: 'G0.68, Oasis on Broadbeach QLD'
+      title: Location
+    - content: |-
+        Mon - Fri: 10am - 10pm
+
+        Sat - Sun: 11am - 8pm
+      title: Open Hours
+    - content: Free underground parking in Oasis
+      title: Parking
+  introContent: >-
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+    eu fugiat.
+  title: Find Us Here
 ---
 
