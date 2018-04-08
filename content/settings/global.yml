@@ -1,8 +1,10 @@
 siteTitle: Food Focus
 siteUrl: 'https://foodfocus.netlify.com'
 siteDescription: 'Food Focus '
-socialMediaCard:
-  image: ''
-  twitterCreatorAccount: ''
-  twitterSiteAccount: ''
+socialMedia:
+  - accountUrl: 'http://www.twitter.com'
+    icon: /images/uploads/IMG_5105.jpg
+phone: 1234 567 789
+email: email@test.com
+address: 123 road dr
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
