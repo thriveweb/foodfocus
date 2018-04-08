@@ -22,8 +22,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
-          - label: Social Media
-            name: socialMedia
+          - label: Social Medias
+            name: socialMedias
             widget: list
             fields:
               - {label: Icon, name: icon, widget: image, required: false}
