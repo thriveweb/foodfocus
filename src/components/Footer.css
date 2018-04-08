@@ -1,14 +1,37 @@
-.Footer {
+.footer {
   background: var(--primary);
   color: white;
+  padding: 6rem 0 0;
 }
 
-.Footer--Lower {
-  background: var(--primary);
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer--col-left, .footer--col-middle, .footer--col-right {
+	flex: 0 0 33%;
+}
+
+.footer--col-left img {
+	width: 18rem;
+}
+
+.footer--col-left p {
+	font-size: .8em;
+}
+
+.footer--col-middle p {
+	margin-bottom: .5rem;
+}
+
+.footer--col-middle a {
+	color: white;
+}
+
+.footer--lower {
   padding: 1rem 0;
   font-weight: 100;
 }
 
-.Footer--Lower a {
-  color: inherit;
-}
+
