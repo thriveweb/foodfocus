@@ -25,7 +25,7 @@ export default ({content, phone, email, socialMedias }) => (
     <div className='footer--bottom'>
       <div className='container'>
         <p>© 2018 Copyright Food Focus</p>
-        <a href="https://thriveweb.com.au/" title="Web Design Gold Coast" >Web Design Gold Coast</a> - THRIVE
+        <p><a href="https://thriveweb.com.au/" title="Web Design Gold Coast" >Web Design Gold Coast</a> - THRIVE</p>
         <nav>
         	<ul>
         		<li><a href='/'>FAQ</a></li>

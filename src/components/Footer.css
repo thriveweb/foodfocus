@@ -7,10 +7,11 @@
 .footer .container {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-end;
 }
 
 .footer--col-left, .footer--col-middle, .footer--col-right {
-	flex: 0 0 33%;
+	flex: 0 0 30%;
 }
 
 .footer--col-left img {
@@ -19,6 +20,7 @@
 
 .footer--col-left p {
 	font-size: 1.4em;
+	line-height: 1.7;
 }
 
 .footer--col-middle p {
@@ -33,11 +35,45 @@
 
 .footer--social-media {
 	display: flex;
+	margin-top: 2rem;
 }
 
-.footer--lower {
-  padding: 1rem 0;
-  font-weight: 100;
+.footer--social-media a {
+	padding: .5rem 1rem;
+}
+
+.footer--social-media a:first-of-type {
+	padding-left: 0;
+}
+
+.footer--bottom {
+	margin: 4rem 0 0;
+}
+
+.footer--bottom .container {
+	border-top: .1rem solid white;
+	padding: 1.6rem 0;
+}
+
+.footer--bottom a, .footer--bottom p, .footer--bottom li {
+	color: white;
+	margin: 0;
+	font-size: 1.4em;
+}
+
+.footer--bottom a:hover {
+	color: var(--secondary);
+}
+
+.footer--bottom ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.footer--bottom a {
+	font-size: inherit;
+	padding: .5rem;
 }
 
 

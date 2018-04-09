@@ -1,10 +1,18 @@
-.Nav {
-  background: white;
-  position: sticky;
+.nav {
+  position: fixed;
   top: 0;
-  z-index: 1;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 2rem 0;
 }
 
-.Nav--Container {
+.nav--container {
   display: flex;
+  justify-content: center;
+}
+
+.nav--container .Logo {
+	width: 18rem;
+	height: 6.6rem;
 }

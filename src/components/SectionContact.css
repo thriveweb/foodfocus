@@ -30,8 +30,9 @@
 	display: inline-block;
 }
 
-.section--contact-info p {
+.section--contact-info p, li, a {
 	font-weight: 500;
+	list-style-type: none;
 }
 
 .section--contact-info-item.location {
