@@ -38,6 +38,11 @@
 	margin-top: 2rem;
 }
 
+.footer--social-media svg {
+	height: 1.3rem;
+	width: 1.3rem;
+}
+
 .footer--social-media a {
 	padding: .5rem 1rem;
 }

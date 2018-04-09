@@ -56,7 +56,10 @@ class App extends Component {
       siteTitle,
       siteUrl,
       siteDescription,
-      socialMedias,
+      twitter,
+      facebook,
+      linkedin,
+      instagram,
       phone,
       address,
       email,
@@ -78,14 +81,6 @@ class App extends Component {
             title={siteTitle}
             url={siteUrl}
             description={siteDescription}
-            absoluteImageUrl={
-              socialMedias &&
-              socialMedias.icon &&
-              siteUrl + socialMedias.icon
-            }
-            accountUrl={
-              socialMedias && socialMedias.accountUrl
-            }
             headerScripts={headerScripts}
           />
           <Nav />
@@ -100,7 +95,7 @@ class App extends Component {
 
             <Route render={() => <NoMatch siteUrl={siteUrl} />} />
           </Switch>
-          <Footer content={footer.content} phone={globalSettings.phone} email={email} socialMedias={socialMedias} />
+          <Footer content={footer.content} phone={phone} email={email} twitter={twitter} facebook={facebook} linkedin={linkedin} instagram={instagram} />
         </div>
       </Router>
     )

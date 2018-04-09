@@ -2,21 +2,23 @@ import React from 'react'
 
 import './Footer.css'
 import LazyImage from './LazyImage'
+import {ICONTwitter, ICONFacebook, ICONLinkedin, ICONInstagram} from './Icons'
 
-export default ({content, phone, email, socialMedias }) => (
+export default ({content, phone, email, twitter, facebook, linkedin, instagram }) => (
   <footer className='footer'>
   	<div className='container'>
   		<div className='footer--col-left'>
   			<LazyImage src='/images/uploads/logo.png' imageSize='300' alt='Food Focus Logo' />
-  			<p>{content}</p>
+  			{content ? <p>{content}</p> : ''}
   		</div>
   		<div className='footer--col-middle'>
-  		    <p>Phone: <a href={`tel:${phone}`}>{phone}</a></p>
-  			<p>Email: <a href={`mailto:${email}`}>{email}</a></p>
+  		  {phone ? <p>Phone: <a href={`tel:${phone}`}>{phone}</a></p> : ''}
+  			{email ? <p>Email: <a href={`mailto:${email}`}>{email}</a></p> : ''}
   			<div className='footer--social-media'>
-  				{socialMedias.map(socialMedia => {
-  					return <a href={socialMedia.accountUrl}><img src={socialMedia.icon}/></a>
-  				})}
+          {twitter ? <a href={`${twitter}`}><ICONTwitter/></a> : ''}
+          {facebook ? <a href={`${facebook}`}><ICONFacebook/></a> : ''}
+          {linkedin ? <a href={`${linkedin}`}><ICONLinkedin/></a> : ''}
+          {instagram ? <a href={`${instagram}`}><ICONInstagram/></a> : ''}
   			</div>
   		</div>
   		<div className='footer--col-right'>

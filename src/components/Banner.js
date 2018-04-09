@@ -6,12 +6,12 @@ import './Banner.css'
 export default ({image, heading, address, phone}) => (
 
 	<section className='section--banner relative'>
-		<BackgroundImage src={image} imageSize='1800' />
+		{image ? <BackgroundImage src={image} imageSize='1800' /> : ''}
 		<div className='container relative'>
-			<h1>{heading}</h1>
+			{heading ? <h1>{heading}</h1> : ''}
 			<div className='section--banner-info'>
-				<p className='title-italic'>{address}</p>
-				<a href={`tel:${phone}`}>{phone}</a>
+				{address ? <p className='title-italic'>{address}</p> : ''}
+				{phone ? <a href={`tel:${phone}`}>{phone}</a> : ''}
 			</div>
 		</div>
 	</section>
