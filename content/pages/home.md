@@ -10,20 +10,28 @@ intro:
   title: Explore our menu
 galleryImages:
   - image: /images/uploads/heather-schwartz-493942-unsplash.jpg
+    imageRatio: '2'
     title: Soup
   - image: /images/uploads/niklas-rhose-14304-unsplash.jpg
+    imageRatio: '3'
     title: Burgers
   - image: /images/uploads/edgar-castrejon-459822-unsplash.jpg
+    imageRatio: '2'
     title: Bowls
   - image: /images/uploads/brooke-lark-356769-unsplash.jpg
+    imageRatio: '1'
     title: Brekkie
   - image: /images/uploads/eaters-collective-132773-unsplash.jpg
+    imageRatio: '1'
     title: Pasta
   - image: /images/uploads/cel-lisboa-60315-unsplash.jpg
+    imageRatio: '3'
     title: Risotto
   - image: /images/uploads/lauren-lester-205923-unsplash.jpg
+    imageRatio: '2'
     title: Salad
   - image: /images/uploads/carissa-gan-76304-unsplash.jpg
+    imageRatio: '2'
     title: Pizza
 columns:
   - category: About Us
@@ -74,10 +82,5 @@ contact:
     eu fugiat.
   location: Location
   title: Find Us Here
-footer:
-  content: >-
-    About text goes here et vero eos et accusamus et iusto odio dignissimos
-    ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
-    dolores et quas molestias.
 ---
 
