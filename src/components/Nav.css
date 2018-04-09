@@ -9,7 +9,23 @@
 
 .nav--container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--menu-link {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase
+}
+
+.nav--container .button {
+  border-color: white;
+  color: white;
+}
+
+.nav--container .button:hover {
+  color: var(--secondary);
 }
 
 .nav--container .Logo {

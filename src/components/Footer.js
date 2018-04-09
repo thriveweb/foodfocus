@@ -3,6 +3,7 @@ import React from 'react'
 import './Footer.css'
 import LazyImage from './LazyImage'
 import {ICONTwitter, ICONFacebook, ICONLinkedin, ICONInstagram} from './Icons'
+import EnquiryFormSimple from './EnquiryFormSimple'
 
 export default ({content, phone, email, twitter, facebook, linkedin, instagram }) => (
   <footer className='footer'>
@@ -22,6 +23,7 @@ export default ({content, phone, email, twitter, facebook, linkedin, instagram }
   			</div>
   		</div>
   		<div className='footer--col-right'>
+        <EnquiryFormSimple />
   		</div>
   	</div>
     <div className='footer--bottom'>

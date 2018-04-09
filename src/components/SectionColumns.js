@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './SectionColumns.css'
+import BackgroundImage from './BackgroundImage'
 
 export default ({columns}) => (
 	<section className='section--columns'>
@@ -8,7 +9,7 @@ export default ({columns}) => (
 			{columns.map((column, index) => {
 				return <div key={`column-${index}`} className={`section--column--item ${!column.leftAlign ? 'column-right' : ''}`}>
 					<div className='section--column-item-image-container'>
-						{column.image ? <div className='section--column-item-image section-image' style={{backgroundImage: `url(${column.image})`}}></div> : ''}
+						{column.image ? <BackgroundImage src={column.image} imageSize='800' /> : ''}
 					</div>
 					<div className='section--column-item-content'>
 						{column.category ? <h3>{column.category}</h3> : ''}

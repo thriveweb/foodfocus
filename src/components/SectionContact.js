@@ -2,6 +2,8 @@ import React from 'react'
 
 import './SectionContact.css'
 
+import ICONtwitter from './Icons'
+
 export default ({title, introContent, infoItems, address}) => (
 
 	<section className='section--contact'>
@@ -27,3 +29,4 @@ export default ({title, introContent, infoItems, address}) => (
 		</div>
 	</section>
 )
+

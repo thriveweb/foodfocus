@@ -26,28 +26,13 @@ export default ({
     <label className='EnquiryForm--Label'>
       <input
         className='EnquiryForm--Input'
-        type='email'
-        placeholder='Email'
-        name='email'
+        type='text'
+        placeholder='Phone'
+        name='phone'
         required
       />
     </label>
-    <label className='EnquiryForm--Label has-arrow'>
-      <select
-        className='EnquiryForm--Input EnquiryForm--Select'
-        name='type'
-        defaultValue='Type of Enquiry'
-        required
-      >
-        <option disabled hidden>
-          Type of Enquiry
-        </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
-      </select>
-    </label>
-    <label className='EnquiryForm--Label'>
+    <label className='EnquiryForm--Label textarea'>
       <textarea
         className='EnquiryForm--Input EnquiryForm--Textarea'
         placeholder='Message'
@@ -56,13 +41,15 @@ export default ({
         required
       />
     </label>
-    <input type='text' name='_gotcha' style={{ display: 'none' }} />
-    {!!subject && <input type='hidden' name='subject' value={subject} />}
-    <input type='hidden' name='form-name' value={name} />
-    <input
-      className='Button EnquiryForm--SubmitButton'
-      type='submit'
-      value='Enquire'
-    />
+    <div className='form--footer'>
+      <input type='text' name='_gotcha' style={{ display: 'none' }} />
+      {!!subject && <input type='hidden' name='subject' value={subject} />}
+      <input type='hidden' name='form-name' value={name} />
+      <input
+        className='button EnquiryForm--SubmitButton'
+        type='submit'
+        value='Enquire'
+      />
+    </div>  
   </form>
 )

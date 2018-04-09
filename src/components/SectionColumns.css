@@ -13,12 +13,10 @@
 	position: relative;
 }
 
-.section--column-item-image {
-	height: auto;
+.section--column-item-image-container .BackgroundImage {
 	min-height: 40rem;
-	margin: auto 0;
 	position: relative;
-	z-index: 1;
+
 }
 
 .section--column-item-image-container:after {
