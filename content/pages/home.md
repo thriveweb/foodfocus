@@ -10,28 +10,28 @@ intro:
   title: Explore our menu
 galleryImages:
   - image: /images/uploads/heather-schwartz-493942-unsplash.jpg
-    imageRatio: '2'
+    imageRatio: Two
     title: Soup
   - image: /images/uploads/niklas-rhose-14304-unsplash.jpg
-    imageRatio: '3'
+    imageRatio: Three
     title: Burgers
   - image: /images/uploads/edgar-castrejon-459822-unsplash.jpg
-    imageRatio: '2'
+    imageRatio: Two
     title: Bowls
   - image: /images/uploads/brooke-lark-356769-unsplash.jpg
-    imageRatio: '1'
+    imageRatio: One
     title: Brekkie
   - image: /images/uploads/eaters-collective-132773-unsplash.jpg
-    imageRatio: '1'
+    imageRatio: One
     title: Pasta
   - image: /images/uploads/cel-lisboa-60315-unsplash.jpg
-    imageRatio: '3'
+    imageRatio: Three
     title: Risotto
   - image: /images/uploads/lauren-lester-205923-unsplash.jpg
-    imageRatio: '2'
+    imageRatio: Two
     title: Salad
   - image: /images/uploads/carissa-gan-76304-unsplash.jpg
-    imageRatio: '2'
+    imageRatio: Two
     title: Pizza
 columns:
   - category: About Us
