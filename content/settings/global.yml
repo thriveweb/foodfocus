@@ -1,18 +1,12 @@
 siteTitle: Food Focus
 siteUrl: 'https://foodfocus.netlify.com'
 siteDescription: 'Food Focus '
-socialMedias:
-  - accountUrl: 'http://www.twitter.com'
-    icon: /images/uploads/twitter-logo-silhouette.svg
-  - accountUrl: 'http://www.facebook.com'
-    icon: /images/uploads/facebook-letter-logo.svg
-  - accountUrl: 'http://www.linkedin.com'
-    icon: /images/uploads/linkedin-logo.svg
-  - accountUrl: 'http://www.instagram.com'
-    icon: /images/uploads/instagram-logo.svg
 phone: (07) 5592 3553
 email: info@focusfood.com.au
 address: 'G0.68, Oasis on Broadbeach QLD'
+twitter: 'http://www.twitter.com'
+facebook: 'http://www.facebook.com'
+linkedin: 'http://www.linkedin.com'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
 footer:
   content: >-
