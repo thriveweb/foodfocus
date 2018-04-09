@@ -6,7 +6,7 @@ export default ({title, introContent, infoItems}) => (
 		<div className='container'>
 			<div className='section--contact-intro'>
 				<h2>{title}</h2>
-				<p>{introContent}</p>
+				<p className='title-italic'>{introContent}</p>
 			</div>
 			<div className='section--contact-info'>
 				{infoItems.map(infoItem => {

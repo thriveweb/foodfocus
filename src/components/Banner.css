@@ -6,11 +6,11 @@
 
 .section--banner .container {
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 }
 
 .section--banner h1 {
-	font-size: 15em;
+	font-size: 24em;
 	font-weight: 300;
 	letter-spacing: 8.5rem;
 	color: white;
@@ -38,13 +38,11 @@
 	margin: 0;
 }
 
-.section--banner-info p {
-	font-size: 1.5em;
-	font-style: italic;
-}
-
 .section--banner-info a {
-	font-size: 1.1em;
+	font-size: 1.6em;
+	margin-top: 1rem;
+	letter-spacing: .3rem;
+	display: block;
 }
 
 .section--banner:before {

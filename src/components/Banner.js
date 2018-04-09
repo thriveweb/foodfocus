@@ -10,7 +10,7 @@ export default ({image, heading, address, phone}) => (
 		<div className='container relative'>
 			<h1>{heading}</h1>
 			<div className='section--banner-info'>
-				<p>{address}</p>
+				<p className='title-italic'>{address}</p>
 				<a href={`tel:${phone}`}>{phone}</a>
 			</div>
 		</div>

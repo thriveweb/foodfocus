@@ -18,7 +18,7 @@
 }
 
 .footer--col-left p {
-	font-size: .8em;
+	font-size: 1.4em;
 }
 
 .footer--col-middle p {
@@ -27,6 +27,12 @@
 
 .footer--col-middle a {
 	color: white;
+	display: inline-block;
+	font-size: inherit;
+}
+
+.footer--social-media {
+	display: flex;
 }
 
 .footer--lower {

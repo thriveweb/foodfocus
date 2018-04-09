@@ -64,6 +64,10 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Title, name: title, widget: string}
+              - label: "Image Ratio"
+                name: "imageRatio"
+                widget: "select"
+                options: ["1", "2", "3"]
           - label: "Columns"
             name: "columns"
             widget: "list"
@@ -88,9 +92,6 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: markdown}
   
-
-
-
 
 
 

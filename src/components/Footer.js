@@ -15,7 +15,7 @@ export default ({content, phone, email, socialMedias }) => (
   			<p>Email: <a href={`mailto:${email}`}>{email}</a></p>
   			<div className='footer--social-media'>
   				{socialMedias.map(socialMedia => {
-  					return <a href={socialMedia.accountUrl}>{socialMedia.icon}</a>
+  					return <a href={socialMedia.accountUrl}><img src={socialMedia.icon}/></a>
   				})}
   			</div>
   		</div>

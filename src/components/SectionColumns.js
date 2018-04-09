@@ -9,7 +9,7 @@ export default ({columns}) => (
 					<div className='section--column-item-content'>
 						<h3>{column.category}</h3>
 						<h2>{column.title}</h2>
-						<h4>{column.subTitle}</h4>
+						<h4 className='title-italic'>{column.subTitle}</h4>
 						<p>{column.content}</p>
 					</div>
 				</div>	
