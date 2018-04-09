@@ -64,8 +64,6 @@ class App extends Component {
       headerScripts
     } = globalSettings
 
-    console.log(globalSettings)
-
     return (
       <Router>
         <div className='React-Wrap'>

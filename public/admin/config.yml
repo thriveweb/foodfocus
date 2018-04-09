@@ -67,7 +67,7 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Image Ratio"
                 name: "imageRatio"
                 widget: "select"
-                options: ["1", "2", "3"]
+                options: ["One", "Two", "Three"]
           - label: "Columns"
             name: "columns"
             widget: "list"
