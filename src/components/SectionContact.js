@@ -1,6 +1,8 @@
 import React from 'react'
 
-export default ({title, introContent, infoItems}) => (
+import './SectionContact.css'
+
+export default ({title, introContent, infoItems, address}) => (
 
 	<section className='section--contact'>
 		<div className='container'>
@@ -8,15 +10,20 @@ export default ({title, introContent, infoItems}) => (
 				<h2>{title}</h2>
 				<p className='title-italic'>{introContent}</p>
 			</div>
-			<div className='section--contact-info'>
-				{infoItems.map(infoItem => {
-					return <div key={infoItem.title} className='section--contact-info-item'>
-						<h3>{infoItem.title}</h3>
-						<p>{infoItem.content}</p>
+			<div className='section--contact-info-container'>
+				<div className='section--contact-info'>
+					<div className='section--contact-info-item location'>
+						<h3>Location</h3>
+						<p>{address}</p>
 					</div>
-				})}
-			</div>
+					{infoItems.map(infoItem => {
+						return <div key={infoItem.title} className='section--contact-info-item'>
+							<h3>{infoItem.title}</h3>
+							<p>{infoItem.content}</p>
+						</div>
+					})}
+				</div>
+			</div>	
 		</div>
 	</section>
-
 )

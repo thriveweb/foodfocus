@@ -18,7 +18,7 @@ export default ({ page, globalSettings }) => {
       <SectionIntro title={intro.title} content={intro.content} buttonText={intro.buttonText} buttonUrl={intro.buttonUrl} />
       <ImageGallery galleryItems={galleryImages} />
       <SectionColumns columns={columns} />
-      <SectionContact title={contact.title} introContent={contact.introContent} infoItems={contact.infoItems} />
+      <SectionContact title={contact.title} address={address} introContent={contact.introContent} infoItems={contact.infoItems} />
       <Helmet>
         <title>{title}</title>
       </Helmet>
