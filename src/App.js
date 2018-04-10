@@ -6,6 +6,7 @@ import _merge from 'lodash/merge'
 import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
 import Home from './views/Home'
+import Faq from './views/Faq'
 import NoMatch from './views/NoMatch'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -90,6 +91,13 @@ class App extends Component {
               exact
               render={props => (
                 <Home page={this.getDocument('pages', 'home')} globalSettings={globalSettings} {...props} />
+              )}
+            />
+            <Route
+              path='/faq'
+              exact
+              render={props => (
+                <Faq page={this.getDocument('pages', 'faq')} globalSettings={globalSettings} {...props} />
               )}
             />
 

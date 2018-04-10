@@ -93,13 +93,23 @@ collections: # A list of collections the CMS should be able to edit
         name: "faq-page"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Content, name: content, widget: markdown}
-      # - file: "content/pages/terms-conditions.md"
-      #   label: "Terms Conditions Page"
-      #   name: "terms-conditions-page"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Content, name: content, widget: markdown}
+          - label: Content Section"
+            name: "contentSection"
+            widget: "list"
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Content, name: content, widget: markdown}
+      - file: "content/pages/terms-conditions.md"
+        label: "Terms Conditions Page"
+        name: "terms-conditions-page"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: "Content Section"
+            name: "contentSection"
+            widget: "list"
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Content, name: content, widget: markdown}
 
 
 

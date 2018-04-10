@@ -5,10 +5,10 @@ import DefaultTemplate from '../components/DefaultTemplate'
 
 
 export default ({ page, globalSettings }) => {
-  const { featuredImage, title, intro, galleryImages, columns, contact } = page
+  const {title, content} = page
 
   return (
-    <main className='Default'>
+    <main className='FAQ'>
       <DefaultTemplate title={title} content={content} />
       <Helmet>
         <title>{title}</title>
