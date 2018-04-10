@@ -11,6 +11,7 @@ facebook: 'http://www.facebook.com'
 linkedin: 'http://www.linkedin.com'
 instagram: 'http://www.instagram.com'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
+pdfMenu: /images/uploads/images (1).pdf
 headerButton:
   buttonText: Order Now
   buttonUrl: 'http://www.google.com'
