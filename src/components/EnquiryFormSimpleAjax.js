@@ -8,7 +8,7 @@ const fetch = window.fetch
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
+    name: 'Enquiry Form',
     subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon',
@@ -81,28 +81,13 @@ class Form extends React.Component {
         <label className='EnquiryForm--Label'>
           <input
             className='EnquiryForm--Input'
-            type='email'
-            placeholder='Email'
-            name='email'
+            type='text'
+            placeholder='Phone'
+            name='phone'
             required
           />
         </label>
-        <label className='EnquiryForm--Label has-arrow'>
-          <select
-            className='EnquiryForm--Input EnquiryForm--Select'
-            name='type'
-            defaultValue='Type of Enquiry'
-            required
-          >
-            <option disabled hidden>
-              Type of Enquiry
-            </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
-            <option>Want to say hello</option>
-          </select>
-        </label>
-        <label className='EnquiryForm--Label'>
+        <label className='EnquiryForm--Label textarea'>
           <textarea
             className='EnquiryForm--Input EnquiryForm--Textarea'
             placeholder='Message'
@@ -115,7 +100,7 @@ class Form extends React.Component {
         {!!subject && <input type='hidden' name='subject' value={subject} />}
         <input type='hidden' name='form-name' value={name} />
         <input
-          className='Button EnquiryForm--SubmitButton'
+          className='button EnquiryForm--SubmitButton'
           type='submit'
           value='Enquire'
           disabled={this.state.disabled}

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './DefaultTemplate.css'
+import Content from './Content'
 
 export default({title, contentSection}) => (
 	<section className='section--default-template'>
@@ -10,7 +11,7 @@ export default({title, contentSection}) => (
 				{contentSection.map(content => {
 					return<div key={`${content.heading}`} className='section--default-template-content-item'>
 						{content.heading ? <h3>{content.heading}</h3> : ''}
-						{content.content ? <p>{content.content}</p> : ''}
+						{content.content && <Content source={content.content}/>}
 					</div>
 				})}
 			</div>
