@@ -9,6 +9,9 @@ facebook: 'http://www.facebook.com'
 linkedin: 'http://www.linkedin.com'
 instagram: 'http://www.instagram.com'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
+pdfFile:
+  buttonText: Menu
+  buttonUrl: /images/uploads/images (1).pdf
 footer:
   content: >-
     About text goes here et vero eos et accusamus et iusto odio dignissimos
