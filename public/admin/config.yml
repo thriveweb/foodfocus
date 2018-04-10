@@ -30,6 +30,12 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Linkedin, name: linkedin, widget: string, required: false}
           - {label: Instagram, name: instagram, widget: string, required: false}    
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
+          - label: "Pdf File"
+            name: "pdfFile"
+            widget: "object"
+            fields:
+              - {label: Button Text, name: buttonText, widget: string}
+              - {label: Button Url, name: buttonUrl, widget: file}
           - label: "Footer"
             name: "footer"
             widget: "object"
@@ -106,7 +112,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - label: Content Section"
             name: "contentSection"
-            widget: "list"
+            widget: "list" 
             fields:
               - {label: Heading, name: heading, widget: string}
               - {label: Content, name: content, widget: markdown}
