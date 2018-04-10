@@ -96,15 +96,17 @@ class Form extends React.Component {
             required
           />
         </label>
-        <input type='text' name='_gotcha' style={{ display: 'none' }} />
-        {!!subject && <input type='hidden' name='subject' value={subject} />}
-        <input type='hidden' name='form-name' value={name} />
-        <input
-          className='button EnquiryForm--SubmitButton'
-          type='submit'
-          value='Enquire'
-          disabled={this.state.disabled}
-        />
+        <div className='form--footer'>
+          <input type='text' name='_gotcha' style={{ display: 'none' }} />
+          {!!subject && <input type='hidden' name='subject' value={subject} />}
+          <input type='hidden' name='form-name' value={name} />
+          <input
+            className='button EnquiryForm--SubmitButton'
+            type='submit'
+            value='Enquire'
+            disabled={this.state.disabled}
+          />
+        </div>  
       </form>
     )
   }

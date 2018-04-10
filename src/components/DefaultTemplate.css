@@ -4,7 +4,7 @@
 }
 
 .section--default-template .container {
-	box-shadow: 0 0 3rem 0 rgba(0,0,0,0.2);
+	box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
 	padding: 8rem 10rem 4rem;
 	position: relative;
 	z-index: 1;
@@ -43,6 +43,7 @@
 
 .section--default-template li {
 	display: block;
+	list-style: bullet;
 }
 
 .section--default-template:after {

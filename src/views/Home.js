@@ -6,7 +6,6 @@ import ImageGallery from '../components/ImageGallery'
 import SectionIntro from '../components/SectionIntro'
 import SectionColumns from '../components/SectionColumns'
 import SectionContact from '../components/SectionContact'
-import './Home.css'
 
 export default ({ page, globalSettings }) => {
   const { featuredImage, title, intro, galleryImages, columns, contact } = page

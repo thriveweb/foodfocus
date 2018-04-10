@@ -30,7 +30,7 @@
 	display: inline-block;
 }
 
-.section--contact-info p, li, a {
+.section--contact-info p, .section--contact-info li, .section--contact-info a {
 	font-weight: 500;
 	list-style-type: none;
 }
