@@ -37,6 +37,14 @@
 	font-size: 2em;
 }
 
+.section--default-template p, .section--default-template li, .section--default-template a  {
+	line-height: 2rem;
+}
+
+.section--default-template li {
+	display: block;
+}
+
 .section--default-template:after {
 	content: '';
 	position: absolute;
