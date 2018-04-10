@@ -5,7 +5,7 @@ import './SectionContact.css'
 import ICONtwitter from './Icons'
 import GoogleMap from './GoogleMap'
 
-export default ({title, introContent, infoItems, address}) => (
+export default ({title, introContent, infoItems, address, latitude, longitude}) => (
 
 	<section className='section--contact'>
 		<div className='container'>
@@ -14,7 +14,7 @@ export default ({title, introContent, infoItems, address}) => (
 				{introContent ? <p className='title-italic'>{introContent}</p> : ''}
 			</div>
 			<div className='section--contact-info-container'>
-				<GoogleMap/>
+				<GoogleMap lat={parseFloat(latitude)} lng={parseFloat(longitude)}/>
 				<div className='section--contact-info'>
 					<div className='section--contact-info-item location'>
 						<h3>Location</h3>
