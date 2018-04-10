@@ -88,19 +88,18 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: markdown}
-
       - file: "content/pages/faq.md"
         label: "FAQ Page"
         name: "faq-page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Content, name: content, widget: markdown}
-      - file: "content/pages/terms-conditions.md"
-        label: "Terms Conditions Page"
-        name: "terms-conditions-page"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Content, name: content, widget: markdown}
+      # - file: "content/pages/terms-conditions.md"
+      #   label: "Terms Conditions Page"
+      #   name: "terms-conditions-page"
+      #   fields:
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Content, name: content, widget: markdown}
 
 
 
