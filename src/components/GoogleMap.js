@@ -9,7 +9,7 @@ export default class GoogleMap extends Component {
     apiKey: '',
     lat: -28.078287,
     lng: 153.444221,
-    zoom: 15,
+    zoom: 17,
     disableDefaultUI: false,
     icon: '',
     styles: '{}'
@@ -34,13 +34,13 @@ export default class GoogleMap extends Component {
     const { lat, lng } = this.props
     const center = { lat, lng }
     this.map.setCenter(center)
-    this.panMapOffset()
+    // this.panMapOffset()
   }
 
-  panMapOffset = () => {
-    if (!this.map || window.innerWidth <= 1000) return false
-    this.map.panBy(window.innerWidth / 5, 0)
-  }
+  // panMapOffset = () => {
+  //   if (!this.map || window.innerWidth <= 1000) return false
+  //   this.map.panBy(window.innerWidth / 5, 0)
+  // }
 
   initMap = () => {
     const google = window.google

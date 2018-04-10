@@ -66,7 +66,9 @@ class App extends Component {
       address,
       email,
       footer,
-      headerScripts
+      headerScripts,
+      headerButton,
+      pdfMenu
     } = globalSettings
 
     return (
@@ -85,7 +87,7 @@ class App extends Component {
             description={siteDescription}
             headerScripts={headerScripts}
           />
-          <Nav />
+          <Nav pdfMenu={pdfMenu} headerButton={headerButton} />
           <Switch>
             <Route
               path='/'

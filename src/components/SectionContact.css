@@ -11,6 +11,7 @@
 .section--contact-info-container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .section--contact-info {
@@ -33,6 +34,7 @@
 .section--contact-info p, .section--contact-info li, .section--contact-info a {
 	font-weight: 500;
 	list-style-type: none;
+	display: block;
 }
 
 .section--contact-info-item.location {
@@ -49,7 +51,7 @@
 	content: '';
 	position: absolute;
 	bottom: 0;
-	right: 50%;
+	left: -30%;
 	width: 24rem;
 	height: .1rem;
 	background-color: var(--secondary);
