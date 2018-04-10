@@ -7,7 +7,7 @@ import ScrollToTop from './components/ScrollToTop'
 import Meta from './components/Meta'
 import Home from './views/Home'
 import Faq from './views/Faq'
-// import TermsConditions from './views/TermsConditions'
+import TermsConditions from './views/TermsConditions'
 import NoMatch from './views/NoMatch'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -99,6 +99,13 @@ class App extends Component {
               exact
               render={props => (
                 <Faq page={this.getDocument('pages', 'faq')} globalSettings={globalSettings} {...props} />
+              )}
+            />
+            <Route
+              path='/terms-conditions'
+              exact
+              render={props => (
+                <Faq page={this.getDocument('pages', 'terms-conditions')} globalSettings={globalSettings} {...props} />
               )}
             />
             <Route render={() => <NoMatch siteUrl={siteUrl} />} />

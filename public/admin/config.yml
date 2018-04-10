@@ -99,6 +99,17 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: Heading, name: heading, widget: string}
               - {label: Content, name: content, widget: markdown}
+      - file: "content/pages/terms-conditions.md"
+        label: "Terms Conditions"
+        name: "termsConditions"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - label: Content Section"
+            name: "contentSection"
+            widget: "list"
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Content, name: content, widget: markdown}
 
 
 
