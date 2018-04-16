@@ -87,7 +87,7 @@ class App extends Component {
             description={siteDescription}
             headerScripts={headerScripts}
           />
-          <Nav pdfMenu={pdfMenu} headerButton={headerButton} />
+          <Nav pdfMenu={pdfMenu} buttonText={headerButton.buttonText} buttonUrl={headerButton.buttonUrl} />
           <Switch>
             <Route
               path='/'
