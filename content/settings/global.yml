@@ -1,6 +1,17 @@
 siteTitle: Food Focus
 siteUrl: 'https://foodfocus.netlify.com'
-siteDescription: 'Food Focus '
+siteDescription: >-
+  Focus food is a sit down takeaway, focusing on fresh healthy food with enough
+  variety of hot and cold food to please everyone
+
+
+  Our delicious juices, smoothies, warm beverages and baked products, which
+  range from roast meals, roast rolls, salads, vegetarian slices and our famous
+  burgers can be enjoyed in a convenient, relaxed and friendly atmosphere 
+
+
+  Come in to see us for breakfast , lunch or dinner 7 days a week . Only closed
+  Christmas Day.
 phone: (07) 5592 3553
 email: info@focusfood.com.au
 address: 'G0.68, Oasis on Broadbeach QLD'
@@ -9,7 +20,7 @@ longitude: '153.432639'
 twitter: 'http://www.twitter.com'
 facebook: 'http://www.facebook.com'
 linkedin: 'http://www.linkedin.com'
-instagram: 'http://www.instagram.com'
+instagram: 'http://www.focusfoodgc'
 headerScripts: <!-- Add your analytics scripts / verification meta here -->
 pdfMenu: /images/uploads/images (1).pdf
 headerButton:
