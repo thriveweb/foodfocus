@@ -20,10 +20,8 @@ galleryImages:
 columns:
   - category: About Us
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat.
+      Focus Food is a sit down takeaway, focusing on fresh healthy food with
+      enough variety to please everyone
     image: /images/uploads/pexels-photo-887827.jpeg
     leftAlign: true
     subTitle: >-
@@ -31,21 +29,16 @@ columns:
       fugit.
     title: 'Brief mission statement '
   - content: >-
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-      officia deserunt mollit. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt.
+      Our delicious juices, smoothies,warm beverages and baked products, which
+      range from roast meals, roast rolls, salads, vegetarian slices and our
+      famous burgers can be enjoyed in a convenient, relaxed and friendly
+      environment
     image: /images/uploads/pexels-photo-916416.jpeg
     leftAlign: false
   - category: Venue
     content: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. 
-
-
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore.
+      come in to see us for breakfast, lunch or dinner 7 days a week . Only
+      closed Christmas Day
     image: /images/uploads/chuttersnap-324675-unsplash.jpg
     leftAlign: true
     subTitle: >-
