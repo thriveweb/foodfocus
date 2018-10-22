@@ -9,30 +9,14 @@ intro:
     restaurant to order
   title: Explore our menu
 galleryImages:
-  - image: /images/uploads/heather-schwartz-493942-unsplash.jpg
-    imageRatio: Two
-    title: Soup
-  - image: /images/uploads/niklas-rhose-14304-unsplash.jpg
-    imageRatio: Three
-    title: Burgers
-  - image: /images/uploads/edgar-castrejon-459822-unsplash.jpg
-    imageRatio: Two
-    title: Bowls
-  - image: /images/uploads/brooke-lark-356769-unsplash.jpg
-    imageRatio: One
-    title: Brekkie
-  - image: /images/uploads/eaters-collective-132773-unsplash.jpg
-    imageRatio: One
-    title: Pasta
-  - image: /images/uploads/cel-lisboa-60315-unsplash.jpg
-    imageRatio: Three
-    title: Risotto
-  - image: /images/uploads/lauren-lester-205923-unsplash.jpg
-    imageRatio: Two
-    title: Salad
-  - image: /images/uploads/carissa-gan-76304-unsplash.jpg
-    imageRatio: Two
-    title: Pizza
+  - image: /images/uploads/2b816870-6d6c-49da-88ce-1458c8016b83.jpeg
+  - image: /images/uploads/3281e3ab-6c80-429b-bf0a-e21f00f0ef99.jpeg
+  - image: /images/uploads/35c743fa-bb00-4147-8d11-434ce64bb050.jpeg
+  - image: /images/uploads/3ed6619c-484f-4401-9db0-e6fb53296019.jpeg
+  - image: /images/uploads/44dcd23c-962c-40d1-952d-37a8b9330da1.jpeg
+  - image: /images/uploads/68de2ab7-195c-4bf5-af08-5a184a4a0389.jpeg
+  - image: /images/uploads/8ac2ab78-c3a7-42c8-af63-188b1c093927.jpeg
+  - image: /images/uploads/af97c967-cf15-49f3-847e-976c0288f945.jpeg
 columns:
   - category: About Us
     content: >-
@@ -80,7 +64,6 @@ contact:
   introContent: >-
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
     eu fugiat.
-  location: Location
   title: Find Us Here
 ---
 
