@@ -22,7 +22,7 @@ columns:
     content: >-
       Focus Food is a sit down takeaway, focusing on fresh healthy food with
       enough variety to please everyone
-    image: /images/uploads/pexels-photo-887827.jpeg
+    image: /images/uploads/4c988285-7610-4c12-bb41-53fa258ffcdc.jpeg
     leftAlign: true
     subTitle: >-
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
@@ -33,13 +33,13 @@ columns:
       range from roast meals, roast rolls, salads, vegetarian slices and our
       famous burgers can be enjoyed in a convenient, relaxed and friendly
       environment
-    image: /images/uploads/pexels-photo-916416.jpeg
+    image: /images/uploads/d77acc4f-46ce-4ce1-9ee6-1aa996a17823.jpeg
     leftAlign: false
   - category: Venue
     content: >-
       come in to see us for breakfast, lunch or dinner 7 days a week . Only
       closed Christmas Day
-    image: /images/uploads/chuttersnap-324675-unsplash.jpg
+    image: /images/uploads/68de2ab7-195c-4bf5-af08-5a184a4a0389.jpeg
     leftAlign: true
     subTitle: >-
       Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
