@@ -22,7 +22,7 @@ columns:
     content: >-
       Focus Food is a sit down takeaway, focusing on fresh healthy food with
       enough variety to please everyone
-    image: /images/uploads/4c988285-7610-4c12-bb41-53fa258ffcdc.jpeg
+    image: /images/uploads/c270a9e6-97fb-45d1-ac9d-5f907feb4eba.jpeg
     leftAlign: true
     subTitle: ''
     title: 'Brief mission statement '
