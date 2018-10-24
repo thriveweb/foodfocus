@@ -24,9 +24,7 @@ columns:
       enough variety to please everyone
     image: /images/uploads/4c988285-7610-4c12-bb41-53fa258ffcdc.jpeg
     leftAlign: true
-    subTitle: >-
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit.
+    subTitle: ''
     title: 'Brief mission statement '
   - content: >-
       Our delicious juices, smoothies,warm beverages and baked products, which
