@@ -51,7 +51,7 @@ contact:
 
         Sat - Sun: 11am - 8pm
       title: Open Hours
-    - content: Free underground parking in Oasis
+    - content: First three hours free parking underground at the Oasis
       title: Parking
   introContent: >-
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
