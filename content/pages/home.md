@@ -9,7 +9,7 @@ intro:
     Breakfast, Burgers,
 
 
-    Fish n Chips, Coffee
+    Fish n Chips, Coffee.
   title: Explore our menu
 galleryImages:
   - image: /images/uploads/2b816870-6d6c-49da-88ce-1458c8016b83.jpeg
