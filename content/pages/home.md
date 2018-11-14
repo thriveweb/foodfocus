@@ -5,8 +5,11 @@ intro:
   buttonText: Download Menu
   buttonUrl: /images/uploads/images (1).pdf
   content: >-
-    Some intro introducing different types of cuisines available at your
-    restaurant to order
+    Juices, Smoothies, Sandwiches, Milkshakes, Salads, Roast rolls, Roast Meals,
+    Breakfast, Burgers,
+
+
+    Fish n Chips, Coffee
   title: Explore our menu
 galleryImages:
   - image: /images/uploads/2b816870-6d6c-49da-88ce-1458c8016b83.jpeg
