@@ -42,10 +42,8 @@ columns:
       closed Christmas Day
     image: /images/uploads/68de2ab7-195c-4bf5-af08-5a184a4a0389.jpeg
     leftAlign: true
-    subTitle: >-
-      Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-      fugit.
-    title: The atmosphere
+    subTitle: ''
+    title: ''
 contact:
   infoItems:
     - content: |-
