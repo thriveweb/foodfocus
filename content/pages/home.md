@@ -28,7 +28,7 @@ columns:
     image: /images/uploads/c270a9e6-97fb-45d1-ac9d-5f907feb4eba.jpeg
     leftAlign: true
     subTitle: ''
-    title: 'Brief mission statement '
+    title: Focus Food
   - content: >-
       Our delicious juices, smoothies,warm beverages and baked products, which
       range from roast meals, roast rolls, salads, vegetarian slices and our
