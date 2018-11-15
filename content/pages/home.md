@@ -21,7 +21,7 @@ galleryImages:
   - image: /images/uploads/8ac2ab78-c3a7-42c8-af63-188b1c093927.jpeg
   - image: /images/uploads/af97c967-cf15-49f3-847e-976c0288f945.jpeg
 columns:
-  - category: About Us
+  - category: Focus Food
     content: >-
       Focus Food is a sit down takeaway, focusing on fresh healthy food with
       enough variety to please everyone
