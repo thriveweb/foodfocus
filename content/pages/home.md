@@ -54,8 +54,8 @@ contact:
     - content: First three hours free parking underground at the Oasis
       title: Parking
   introContent: >-
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-    eu fugiat.
+    75 Surf Parade, Broadbeach. 4218.  The Oasis Shopping Centre is located on
+    the Broadbeach Mall
   title: Find Us Here
 ---
 
