@@ -55,7 +55,7 @@ contact:
       title: Parking
   introContent: >-
     75 Surf Parade, Broadbeach. 4218.  The Oasis Shopping Centre is located on
-    the Broadbeach Mall
+    the Broadbeach Mall.
   title: Find Us Here
 ---
 
