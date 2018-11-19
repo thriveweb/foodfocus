@@ -38,7 +38,7 @@ columns:
     leftAlign: false
   - category: Venue
     content: >-
-      come in to see us for breakfast, lunch or dinner 7 days a week . Only
+      Come in to see us for breakfast, lunch or dinner 7 days a week . Only
       closed Christmas Day
     image: /images/uploads/68de2ab7-195c-4bf5-af08-5a184a4a0389.jpeg
     leftAlign: true
