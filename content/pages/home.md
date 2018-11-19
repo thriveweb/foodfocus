@@ -6,7 +6,7 @@ intro:
   buttonUrl: /images/uploads/images (1).pdf
   content: >-
     Juices, Smoothies, Sandwiches, Milkshakes, Salads, Roast rolls, Roast Meals,
-    Breakfast, Burgers,
+    Bacon and Eggs, Burgers,
 
 
     Fish n Chips, Coffee.
