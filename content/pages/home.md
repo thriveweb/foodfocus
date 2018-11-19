@@ -46,10 +46,7 @@ columns:
     title: ''
 contact:
   infoItems:
-    - content: |-
-        Mon - Fri: 10am - 10pm
-
-        Sat - Sun: 11am - 8pm
+    - content: Every Day 6am - 8.30pm
       title: Open Hours
     - content: First three hours free parking underground at the Oasis
       title: Parking
