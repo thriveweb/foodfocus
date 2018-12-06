@@ -36,7 +36,7 @@ columns:
       environment
     image: /images/uploads/d77acc4f-46ce-4ce1-9ee6-1aa996a17823.jpeg
     leftAlign: false
-  - category: Venue
+  - category: ''
     content: >-
       Come in to see us for breakfast, lunch or dinner 7 days a week . Only
       closed Christmas Day
