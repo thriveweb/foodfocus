@@ -63,7 +63,12 @@
     background-color: white;
     color: var(--primary);
     border-radius: 0;
-    text-align: center; 
+    text-align: center;
+  }
+
+  .nav--container {
+    display: flex;
+    justify-content: center;
   }
 
   .nav--container .button:hover {
@@ -82,19 +87,3 @@
     width: 11rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
