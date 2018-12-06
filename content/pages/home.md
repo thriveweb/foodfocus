@@ -2,8 +2,8 @@
 title: FOCUS
 featuredImage: /images/uploads/home-banner.jpg
 intro:
-  buttonText: Download Menu
-  buttonUrl: /images/uploads/images (1).pdf
+  buttonText: Menu Coming Soon
+  buttonUrl: ''
   content: >-
     Juices, Smoothies, Sandwiches, Milkshakes, Salads, Roast rolls, Roast Meals,
     Breafast, Burgers,
