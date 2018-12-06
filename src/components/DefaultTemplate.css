@@ -55,3 +55,36 @@
 	height: 70%;
 	background-color: rgba(58,58,60,0.15);
 }
+
+
+@media only screen and (max-width: 1400px) {
+	.section--default-template:after {
+		width: 100%;
+		height: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.section--default-template h1 {
+		font-size: 3.5rem;
+	}
+
+	.section--default-template .container {
+		padding: 6rem 4rem 4rem;
+		margin-top: 4rem;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.section--default-template h1 {
+		font-size: 3rem;
+	}
+
+	.section--default-template .container {
+		padding: 4rem 2rem 2rem;
+	}
+
+	.section--default-template {
+		padding: 10rem 0 6rem;
+	}
+}

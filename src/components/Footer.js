@@ -30,15 +30,14 @@ export default ({content, phone, email, twitter, facebook, linkedin, instagram }
       <div className='container'>
         <p>© 2018 Copyright Food Focus</p>
         <p><a href="https://thriveweb.com.au/" title="Web Design Gold Coast" >Web Design Gold Coast</a> - THRIVE</p>
-        <nav>
-        	<ul>
-        		<li><a href='/faq'>FAQ</a></li>
-        		<li><a href='/terms-conditions'>Terms & Conditions</a></li>
-        	</ul>	
-        </nav>
       </div>
     </div>
   </footer>
 )
 
-
+// <nav>
+//   <ul>
+//     <li><a href='/faq'>FAQ</a></li>
+//     <li><a href='/terms-conditions'>Terms & Conditions</a></li>
+//   </ul>
+// </nav>
