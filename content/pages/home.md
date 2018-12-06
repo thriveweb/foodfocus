@@ -43,7 +43,7 @@ columns:
     image: /images/uploads/68de2ab7-195c-4bf5-af08-5a184a4a0389.jpeg
     leftAlign: true
     subTitle: ''
-    title: ''
+    title: Venue
 contact:
   infoItems:
     - content: Every Day 6am - 8.30pm
