@@ -106,7 +106,7 @@ class Form extends React.Component {
             value='Enquire'
             disabled={this.state.disabled}
           />
-        </div>  
+        </div>
       </form>
     )
   }
