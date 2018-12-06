@@ -7,7 +7,7 @@ export default ({galleryItems}) => (
 	<section className='section--image-gallery'>
 		{galleryItems.map((galleryItem, index) => {
 			return [
-				<div key={galleryItem.title} className={`section--image-gallery-item section-image ${galleryItem.imageRatio}`}>
+				<div key={index} className={`section--image-gallery-item section-image ${galleryItem.imageRatio}`}>
 					{galleryItem.image ? <BackgroundImage src={galleryItem.image} imageSize='550' /> : ''}
 					<h3>{galleryItem.title}</h3>
 				</div>,
