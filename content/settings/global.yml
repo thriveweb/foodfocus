@@ -16,7 +16,4 @@ headerButton:
   buttonText: Order Now
   buttonUrl: 'tel:(07)55923553'
 footer:
-  content: >-
-    About text goes here et vero eos et accusamus et iusto odio dignissimos
-    ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos
-    dolores et quas molestias.
+  content: ''
