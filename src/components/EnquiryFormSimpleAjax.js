@@ -87,6 +87,15 @@ class Form extends React.Component {
             required
           />
         </label>
+        <label className='EnquiryForm--Label full-width'>
+          <input
+            className='EnquiryForm--Input'
+            type='email'
+            placeholder='Email'
+            name='email'
+            required
+          />
+        </label>
         <label className='EnquiryForm--Label textarea'>
           <textarea
             className='EnquiryForm--Input EnquiryForm--Textarea'
