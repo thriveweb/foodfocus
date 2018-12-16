@@ -80,6 +80,7 @@ class App extends Component {
           <Helmet
             defaultTitle={siteTitle}
             titleTemplate={`${siteTitle} | %s`}
+
           />
           <Meta
             title={siteTitle}
