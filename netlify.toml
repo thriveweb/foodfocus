@@ -6,3 +6,6 @@
 [build]
   publish = "build"
   command = "npm run build"
+[[redirects]]
+  from = "https://foodfocus.netlify.com/*"
+  to = "https://focusfood.com.au/:splat"
