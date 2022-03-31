@@ -6,7 +6,7 @@ import './GoogleMap.css'
 
 export default class GoogleMap extends Component {
   static defaultProps = {
-    apiKey: 'AIzaSyBKSwoRrGffSTKjkurpzkVKHgeHmfTKS-k',
+    apiKey: 'AIzaSyCaDUVUlipNvIw67tiy9VTEg7TbLmfpbo0-k',
     lat: -28.078287,
     lng: 153.444221,
     zoom: 17,
